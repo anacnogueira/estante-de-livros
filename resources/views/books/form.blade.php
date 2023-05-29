@@ -26,7 +26,7 @@
                     <div>
                         Lido?
                         <label>
-                            <input type="radio" name="read" value="1"   >
+                            <input type="radio" name="read" value="1"  <?php echo (isset($book->read) && $book->read == 1 ? 'checked' : ''); ?>>
                             <span>Sim</span>
                         </label>
                         <label>
